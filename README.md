@@ -79,13 +79,13 @@ In this task, you will configure the LOD VM as an Azure DevOps self-hosting agen
 
 3. On the Create a new personal access token pane, click the Show all scopes link and, specify the following settings and click Create (leave all others with their default values):
 
-Setting	                Value
+Setting	     -           Value
 
-Name	                  Configuring Agent Pools and Understanding Pipeline Styles lab
+Name	   -               Configuring Agent Pools and Understanding Pipeline Styles lab
 
-Scope (custom defined)	Agent Pools (show more scopes option below if needed)
+Scope (custom defined)	- Agent Pools (show more scopes option below if needed)
 
-Permissions	            Read and manage
+Permissions	         -   Read and manage
 
 4. On the Success pane, copy the value of the personal access token to Clipboard.
 
@@ -131,29 +131,27 @@ powershell
 
 Setting	                                                                                Value
 
-Enter server URL	                                                                      the URL of your Azure DevOps organization, in the format 
-
+Enter server URL -                                                                      the URL of your Azure DevOps organization, in the format 
                                                                                         https://dev.azure.com/<organization_name>, where <organization_name> represents 
-                                                                                        
                                                                                         the name of your Azure DevOps organization
 
-Enter authentication type (press enter for PAT)	                                        Enter
+Enter authentication type (press enter for PAT) - 	                                     Enter
 
-Enter personal access token	                                                            The access token you recorded earlier in this task
+Enter personal access token	-                                                            The access token you recorded earlier in this task
 
-Enter agent pool (press enter for default)	                                            az400m05l05a-pool
+Enter agent pool (press enter for default)	-                                            az400m05l05a-pool
 
-Enter agent name	                                                                      az400m05-vm0
+Enter agent name	-                                                                      az400m05-vm0
 
-Enter work folder (press enter for _work)	                                              Enter
+Enter work folder (press enter for _work)	 -                                             Enter
 
-(Only if shown) Enter Perform an unzip for tasks for each step. (press enter for N)	    Enter
+(Only if shown) Enter Perform an unzip for tasks for each step. (press enter for N)	 -   Enter
 
-Enter run agent as service? (Y/N) (press enter for N)                                  	Y
+Enter run agent as service? (Y/N) (press enter for N)  -                                	Y
 
-Enter User account to use for the service (press enter for NT AUTHORITY\NETWORK SERVICE) Enter
+Enter User account to use for the service (press enter for NT AUTHORITY\NETWORK SERVICE) - Enter
 
-Enter whether to prevent service starting immediately after configuration is finished? (Y/N) (press enter for N)	Enter
+Enter whether to prevent service starting immediately after configuration is finished? (Y/N) (press enter for N) -	Enter
 
 Note: You can run self-hosted agent as either a service or an interactive process. You might want to start with the interactive mode, since this simplifies verifying agent functionality. For production use, you should consider either running the agent as a service or as an interactive process with auto-logon enabled, since both persist their running state and ensure that the agent starts automatically if the operating system is restarted.
 
